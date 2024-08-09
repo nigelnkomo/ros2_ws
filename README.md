@@ -17,7 +17,7 @@
     <h3 id="what">What is it? What does it do? 🤔</h3>
         <p>The project demonstrates how nodes in the ROS graph can communicate using services.</p>
         <p>There is a separation of concerns or reponsibilities here. What are the concerns? In order to answer this question, one needs to understand what model of communication is used.</p>
-        <em>Services utilise the call-and-response model.</em>
+        <p>Services utilise the <strong>call-and-response model</strong>.</p>
         <img src="./img/call-and-response.jpg" alt="call and response"/>
         <p>Think of how musicians sing a line (the call) and point the mic at the croud to sing the next line (the response).</p>
         <p>Similarly, the node that sends a request (or a call) for information is called the service client, and the node that receives the call or request and thus sends a response is called a service server.</p>
