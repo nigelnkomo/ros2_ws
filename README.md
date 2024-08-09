@@ -2,15 +2,15 @@
 
 ## Table of Contents 📑
 
-- [Background 🖼️](#background)
-    - [What is it? What does it do? 🤔](#what)
-    - [Why is it? Why should it exist? What problems does it solve? 🤔](#why)
+- [Background](#background) 🖼️
+    - [What is it? What does it do?](#what) 🤔
+    - [Why is it? Why should it exist? What problems does it solve?](#why) 🤔
 - [Code 🖥️](#code)
-    - [Project Structure 🌳](#structure)
-    - [Explanation 🖊️](#explanation)
-- [How to run ⌨](#howTo)
-- [Questions / Gaps / Problems / Challenges 🙋🧐](#questions)
-- [Solutions to some or all the questions / How were the challenges overcome? / Thought process / Similarity or differences to other problems / Proofs 💡✅🎯](#solutions)
+    - [Project Structure](#structure) 🌳
+    - [Explanation](#explanation) 🖊️
+- [How to run](#howTo) ⌨
+- [Questions / Gaps / Problems / Challenges](#questions) 🙋🧐
+- [Solutions to some or all the questions / How were the challenges overcome? / Thought process / Similarity or differences to other problems / Proofs](#solutions) 💡✅🎯
 
 
  <h2 id="background">Background</h2>
