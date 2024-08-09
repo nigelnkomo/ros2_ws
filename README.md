@@ -2,18 +2,18 @@
 
 ## Table of Contents 📑
 
-1. [Background 🖼️](#background)
+- [Background 🖼️](#background)
     - [What is it? What does it do? 🤔](#what)
     - [Why is it? Why should it exist? What problems does it solve? 🤔](#why)
-2. [Code 🖥️](#code)
+- [Code 🖥️](#code)
     - [Project Structure 🌳](#structure)
     - [Explanation 🖊️](#explanation)
-3. [How to run ⌨](#howTo)
-4. [Questions / Gaps / Problems / Challenges 🙋🧐](#questions)
-5. [Solutions to some or all the questions / How were the challenges overcome? / Thought process / Similarity or differences to other problems / Proofs 💡✅🎯](#solutions)
+- [How to run ⌨](#howTo)
+- [Questions / Gaps / Problems / Challenges 🙋🧐](#questions)
+- [Solutions to some or all the questions / How were the challenges overcome? / Thought process / Similarity or differences to other problems / Proofs 💡✅🎯](#solutions)
 
 
-1. <h2 id="background">Background</h2>
+ <h2 id="background">Background</h2>
     <h3 id="what">What is it? What does it do? 🤔</h3>
         <p>The project demonstrates how nodes in the ROS graph can communicate using services.</p>
         <p>There is a separation of concerns or reponsibilities here. What are the concerns? In order to answer this question, one needs to understand what model of communication is used.</p>
@@ -26,9 +26,9 @@
         <p>The request-response model, utilised by services, is an indespensible tool where precision and coordination are required.</p>
         <img src="./img/car-manufacturing.jpg" alt="car manufacturing"/>
         <p>As an example, in car manufacturing, a robotic arm trying to install a car door to the frame needs to ensure that the car door is aligned with the frame's hinges. This is a precision task. A service call or request could be sent to the service server that whose separated concern would be to check this alignment using sensor data. Once, confirmed, would respond to the service call, giving the green light for the arm to proceed with installing the car door. Were the arm to proceed without a response, this would lead to improper fitting or damage to both the door and the frame.</p>
-2. <h2 id="code">Code</h2>
+ <h2 id="code">Code</h2>
     <h3 id="structure">Project Structure 🌳</h3>
     <h3 id="explanation">Explanation 🖊️</h3>
-3. <h2 id="howTo">How to Run ⌨</h2>
-4. <h2 id="questions">Questions / Gaps / Problems / Challenges 🙋🧐</h2>
-5. <h2 id="solutions">Solutions to some or all the questions / How were the challenges overcome? / Thought process / Similarity or differences to other problems / Proofs 💡✅🎯</h2>
+ <h2 id="howTo">How to Run ⌨</h2>
+ <h2 id="questions">Questions / Gaps / Problems / Challenges 🙋🧐</h2>
+ <h2 id="solutions">Solutions to some or all the questions / How were the challenges overcome? / Thought process / Similarity or differences to other problems / Proofs 💡✅🎯</h2>
