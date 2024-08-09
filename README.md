@@ -1,0 +1,34 @@
+# A Simple Client and Service in Python
+
+## Table of Contents 📑
+
+1. [Background 🖼️](#background)
+    - [What is it? What does it do? 🤔](#what)
+    - [Why is it? Why should it exist? What problems does it solve? 🤔](#why)
+2. [Code 🖥️](#code)
+    - [Project Structure 🌳](#structure)
+    - [Explanation 🖊️](#explanation)
+3. [How to run ⌨](#howTo)
+4. [Questions / Gaps / Problems / Challenges 🙋🧐](#questions)
+5. [Solutions to some or all the questions / How were the challenges overcome? / Thought process / Similarity or differences to other problems / Proofs 💡✅🎯](#solutions)
+
+
+1. <h2 id="background">Background</h2>
+    <h3 id="what">What is it? What does it do? 🤔</h3>
+        <p>The project demonstrates how nodes in the ROS graph can communicate using services.</p>
+        <p>There is a separation of concerns or reponsibilities here. What are the concerns? In order to answer this question, one needs to understand what model of communication is used.</p>
+        <em>Services utilise the call-and-response model.</em>
+        ![call and response image]("./img/call-and-response.jpg")
+        <p>Think of how musicians sing a line (the call) and point the mic at the croud to sing the next line (the response).</p>
+        <p>Similarly, the node that sends a request (or a call) for information is called the service client, and the node that receives the call or request and thus sends a response is called a service server.</p>
+        <p>Therefore, the call concern or responsibility is handled by the service client and the response concern or responsibility is handled by the service server.<p>
+    <h3 id="why">Why is it? Why should it exist? What problems does it solve? 🤔</h3>
+        <p>The request-response model, utilised by services, is an indespensible tool where precision and coordination are required.</p>
+        ![car manufacturing]("./img/car-manufacturing.jpg")
+        <p>As an example, in car manufacturing, a robotic arm trying to install a car door to the frame needs to ensure that the car door is aligned with the frame's hinges. This is a precision task. A service call or request could be sent to the service server that whose separated concern would be to check this alignment using sensor data. Once, confirmed, would respond to the service call, giving the green light for the arm to proceed with installing the car door. Were the arm to proceed without a response, this would lead to improper fitting or damage to both the door and the frame.</p>
+2. <h2 id="code">Code</h2>
+    <h3 id="structure">Project Structure 🌳</h3>
+    <h3 id="explanation">Explanation 🖊️</h3>
+3. <h2 id="howTo">How to Run ⌨</h2>
+4. <h2 id="questions">Questions / Gaps / Problems / Challenges 🙋🧐</h2>
+5. <h2 id="solutions">Solutions to some or all the questions / How were the challenges overcome? / Thought process / Similarity or differences to other problems / Proofs 💡✅🎯</h2>
