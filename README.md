@@ -28,6 +28,28 @@
         <p>As an example, in car manufacturing, a robotic arm trying to install a car door to the frame needs to ensure that the car door is aligned with the frame's hinges. This is a precision task. A service call or request could be sent to the service server that whose separated concern would be to check this alignment using sensor data. Once, confirmed, would respond to the service call, giving the green light for the arm to proceed with installing the car door. Were the arm to proceed without a response, this would lead to improper fitting or damage to both the door and the frame.</p>
  <h2 id="code">Code</h2>
     <h3 id="structure">Project Structure 🌳</h3>
+ros2_ws
+├── img
+│   ├── call-and-response.jpg
+│   └── car-manufacturing.jpg
+├── README.md
+└── src
+    └── py_srvcli
+        ├── LICENSE
+        ├── package.xml
+        ├── py_srvcli
+        │   ├── client_member_function.py
+        │   ├── __init__.py
+        │   └── service_member_function.py
+        ├── resource
+        │   └── py_srvcli
+        ├── setup.cfg
+        ├── setup.py
+        └── test
+            ├── test_copyright.py
+            ├── test_flake8.py
+            └── test_pep257.py
+    
     <h3 id="explanation">Explanation 🖊️</h3>
  <h2 id="howTo">How to Run ⌨</h2>
  <h2 id="questions">Questions / Gaps / Problems / Challenges 🙋🧐</h2>
