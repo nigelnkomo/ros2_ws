@@ -7,7 +7,8 @@
   - [Why is it? Why should it exist? What problems does it solve?](#why) 🤔
 - [Code 🖥️](#code)
   - [Project Structure](#structure) 🌳
-  <!-- TODO
+
+<!-- TODO
   - [Explanation](#explanation) 🖊️
 - [How to run](#howTo) ⌨
 - [Questions / Gaps / Problems / Challenges](#questions) 🙋🧐
