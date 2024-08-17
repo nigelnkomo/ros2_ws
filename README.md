@@ -7,11 +7,12 @@
   - [Why is it? Why should it exist? What problems does it solve?](#why) 🤔
 - [Code 🖥️](#code)
   - [Project Structure](#structure) 🌳
+  <!-- TODO
   - [Explanation](#explanation) 🖊️
 - [How to run](#howTo) ⌨
 - [Questions / Gaps / Problems / Challenges](#questions) 🙋🧐
 - [Solutions to some or all the questions / How were the challenges overcome? / Thought process / Similarity or differences to other problems / Proofs](#solutions) 💡✅🎯
-
+-->
  <h2 id="background">Background</h2>
     <h3 id="what">What is it? What does it do? 🤔</h3>
         <p>The project demonstrates how nodes in the ROS graph can communicate using services.</p>
@@ -49,8 +50,9 @@
                 ├── test_copyright.py
                 ├── test_flake8.py
                 └── test_pep257.py
-
+<!--TODO
  <h3 id="explanation">Explanation 🖊️</h3>
  <h2 id="howTo">How to Run ⌨</h2>
  <h2 id="questions">Questions / Gaps / Problems / Challenges 🙋🧐</h2>
  <h2 id="solutions">Solutions to some or all the questions / How were the challenges overcome? / Thought process / Similarity or differences to other problems / Proofs 💡✅🎯</h2>
+ -->
